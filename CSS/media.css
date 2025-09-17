@@ -17,6 +17,8 @@
         height: 4px;
         width: 50px;
         position: absolute;
+        transition: all 1s ease-in-out;
+        
     }
     .burger-menu div:nth-child(1){
         top:0px;
@@ -29,19 +31,36 @@
         top:20px;
     }
     .nav-bar .flex{
-        display: none;
+      flex-direction: column;
+      position: absolute;
+      left:-100%;
+      padding:20px 30px;
+      transition: all 1s ease-in-out;
     }
-.input:checked ~  div:nth-child(1){
-    transform:rotate(45deg); 
-    background-color: brown;  
-}
-.input:checked ~ div:nth-child(2){
-    transform:rotate(45deg);
-    background-color: blue;
-}
-.input{
-    position: absolute;
+    .input:checked ~  .flex{
+     left:0;
+    }
+    
 
+    .nav-bar .flex img,.telephone {
+    height: 20px;
+        
+    }
+    
+.input:checked ~.burger-menu  div:nth-child(1){
+    transform:rotate(45deg); 
+   
 }
+.input:checked ~.burger-menu div:nth-child(2){
+    transform:rotate(45deg);
+ 
+    top:0px;
+}
+.input:checked ~.burger-menu div:nth-child(3){
+    transform:rotate(-45deg);
+   
+    top:0px;
+}
+
 }
 
