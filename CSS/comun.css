@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --btn:#F05670;
+    --text-btn:#ffffff;
+    --turquoise:#1E959B;
+}
+.container{
+    max-width:1300px ;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+.flex{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+#btn{
+    background-color: var(--btn);
+    color:var(--text-btn);
+    padding: 20px;
+    border-radius: 15px;
+    border:none;
+}
+.nav-bar{
+    margin-top: 20px;
+
+}
+.nav-bar .flex{
+    width: 40%;
+
+}
+
+.burger-menu{
+    display: none;
+}
+

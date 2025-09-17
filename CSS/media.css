@@ -1,0 +1,47 @@
+@media screen and (max-width:1000px){
+    
+    .nav-bar .flex{
+       width: 60%;
+        
+    }
+}
+@media screen and (max-width:700px){
+    .burger-menu{
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 20px;
+    }
+    .burger-menu div{
+        background-color:var(--turquoise);
+        height: 4px;
+        width: 50px;
+        position: absolute;
+    }
+    .burger-menu div:nth-child(1){
+        top:0px;
+    }
+    .burger-menu div:nth-child(2){
+        top:10px;
+        
+    }
+    .burger-menu div:nth-child(3){
+        top:20px;
+    }
+    .nav-bar .flex{
+        display: none;
+    }
+.input:checked ~  div:nth-child(1){
+    transform:rotate(45deg); 
+    background-color: brown;  
+}
+.input:checked ~ div:nth-child(2){
+    transform:rotate(45deg);
+    background-color: blue;
+}
+.input{
+    position: absolute;
+
+}
+}
+
