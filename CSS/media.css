@@ -1,10 +1,185 @@
+@media screen and (max-width:1100px){
+    
+@keyframes carousel1 {
+ 0%,19%{
+    transform: translateX(200%);
+    opacity: 0;
+ }
+
+ 20%,36%{
+    transform: translateX(120%);
+    opacity: 1;
+    
+ }
+ 40%,56%{
+    transform:translateX(0%) ;
+   opacity: 1;
+   
+ }
+ 60%,76%{
+    transform: translateX(-110%);
+   opacity: 1;
+  
+ }
+ 80%,96%{
+    transform: translateX(-220%);
+   opacity: 1;
+   
+ }
+
+
+ 100%{
+    transform:translateX(-300%);
+    opacity: 0;
+ }
+}
+}
+
+
+
 @media screen and (max-width:1000px){
     
     .nav-bar .flex{
        width: 60%;
         
     }
+    
+@keyframes carousel2{
+    0%,17%{
+        transform:translateX(230%);
+        opacity: 0;
+
+    }
+ 
+    20%,37%{
+        transform: translateX(120%);
+       
+        opacity: 1;
+    }
+    40%,57%{
+        transform: translateX(10%);
+        opacity: 1;
+      
+    }
+    60%,77%{
+        transform: translateX(-100%);
+        opacity: 1;
+       
+    }
+    80%,97%{
+        transform: translateX(-210%);
+        opacity: 1;
+       
+
+    }
+
+    100%{
+      transform: translateX(-330%);
+      opacity:0;
+    }
 }
+
+
+}
+
+@media screen and (max-width:923px){
+    @keyframes carousel1 {
+        
+    
+   0%,36%{
+    transform: translateX(200%);
+    opacity: 0;
+ }
+ 40%,56%{
+    transform:translateX(70%) ;
+   opacity: 1;
+  
+   
+ }
+ 60%,76%{
+    transform: translateX(-50%);
+   opacity: 1;
+   
+  
+ }
+ 80%,96%{
+    transform: translateX(-170%);
+   opacity: 1;
+  
+   
+ }
+
+
+ 100%{
+    transform:translateX(-300%);
+    opacity: 0;
+ } 
+}
+}
+@media screen and (max-width:770px){
+    @keyframes carousel2{
+    0%,17%{
+        transform:translateX(230%);
+        opacity: 0;
+
+    }
+ 
+    20%,37%{
+        transform: translateX(70%);
+    
+        opacity: 1;
+    }
+    40%,57%{
+        transform: translateX(-50%);
+        opacity: 1;
+       
+    }
+    60%,77%{
+        transform: translateX(-170%);
+        opacity: 1;
+       
+    }
+   
+
+   80%, 100%{
+      transform: translateX(-330%);
+      opacity:0;
+    }
+}
+
+}
+
+@media screen and (max-width:722px){
+    @keyframes carousel1 {
+        
+    
+   0%,56%{
+    transform: translateX(200%);
+    opacity: 0;
+ }
+ 60%,76%{
+    transform: translateX(20%);
+   opacity: 1;
+   
+  
+ }
+ 80%,96%{
+    transform: translateX(-100%);
+   opacity: 1;
+
+   
+ }
+
+
+ 100%{
+    transform:translateX(-300%);
+    opacity: 0;
+ } 
+}
+}
+
+
+
 @media screen and (max-width:700px){
     .burger-menu{
         display: block;
@@ -31,11 +206,13 @@
         top:20px;
     }
     .nav-bar .flex{
+        top:0;
       flex-direction: column;
       position: absolute;
       left:-100%;
       padding:20px 30px;
       transition: all 1s ease-in-out;
+      background-color:#F8FFFF ;
     }
     .input:checked ~  .flex{
      left:0;
@@ -61,6 +238,93 @@
    
     top:0px;
 }
+.input{
+    position:absolute;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    z-index: 10;
+    display:block;
+}
 
 }
+@media screen and (max-width:600px){
+    @keyframes carousel2{
+    0%,37%{
+        transform:translateX(230%);
+        opacity: 0;
+    }
+
+    40%,57%{
+        transform: translateX(10%);
+        opacity: 1;
+        background-color: red;
+    }
+    60%,77%{
+        transform: translateX(-110%);
+        opacity: 1;
+       
+    }
+   
+
+   80%, 100%{
+      transform: translateX(-330%);
+      opacity:0;
+    }
+}
+
+}
+@media screen and (max-width:522px){
+    @keyframes carousel1 {
+        
+    
+   0%,76%{
+    transform: translateX(200%);
+    opacity: 0;
+ }
+
+ 80%,96%{
+    transform: translateX(-50%);
+   opacity: 1;
+  
+   
+ }
+
+
+ 100%{
+    transform:translateX(-300%);
+    opacity: 0;
+ } 
+}
+}
+@media screen and (max-width:400px){
+    @keyframes carousel2{
+    0%,37%{
+        transform:translateX(230%);
+        opacity: 0;
+
+    }
+ 
+   
+   
+    40%,57%{
+        transform: translateX(-50%);
+        opacity: 1;
+        background-color: red;
+    }
+   
+   
+
+   60%, 100%{
+      transform: translateX(-330%);
+      opacity:0;
+    }
+}
+
+}
+
+
+
+
 

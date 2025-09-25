@@ -6,6 +6,7 @@
     --btn:#F05670;
     --text-btn:#ffffff;
     --turquoise:#1E959B;
+    --brown:#3C3C3C;
 }
 .container{
     max-width:1300px ;
@@ -24,6 +25,14 @@ align-items: center;
     padding: 20px;
     border-radius: 15px;
     border:none;
+    transition: all 0.5s ease-in-out;
+    border:2px solid transparent;
+}
+#btn:hover{
+    background-color: transparent;
+    color:var(--btn);
+    border:2px solid var(--btn);
+
 }
 .nav-bar{
     margin-top: 20px;
@@ -34,7 +43,8 @@ align-items: center;
 
 }
 
-.burger-menu{
+.burger-menu,.input{
     display: none;
 }
+
 
