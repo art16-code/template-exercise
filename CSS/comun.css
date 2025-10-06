@@ -2,6 +2,9 @@
     margin:0px;
     padding: 0px;
 }
+body{
+    background-color: #F8FFFF;
+}
 :root{
     --btn:#F05670;
     --text-btn:#ffffff;

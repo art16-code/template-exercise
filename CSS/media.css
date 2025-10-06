@@ -46,35 +46,35 @@
     
 @keyframes carousel2{
     0%,17%{
-        transform:translateX(230%);
+        transform:translate(230%,-50%);
         opacity: 0;
 
     }
  
     20%,37%{
-        transform: translateX(120%);
+        transform: translate(120%,-50%);
        
         opacity: 1;
     }
     40%,57%{
-        transform: translateX(10%);
+        transform: translate(10%,-50%);
         opacity: 1;
       
     }
     60%,77%{
-        transform: translateX(-100%);
+        transform: translate(-100%,-50%);
         opacity: 1;
        
     }
     80%,97%{
-        transform: translateX(-210%);
+        transform: translate(-210%,-50%);
         opacity: 1;
        
 
     }
 
     100%{
-      transform: translateX(-330%);
+      transform: translate(-330%,-505);
       opacity:0;
     }
 }
@@ -119,30 +119,30 @@
 @media screen and (max-width:770px){
     @keyframes carousel2{
     0%,17%{
-        transform:translateX(230%);
+        transform:translate(230%,-50%);
         opacity: 0;
 
     }
  
     20%,37%{
-        transform: translateX(70%);
+        transform: translate(70%,-50%);
     
         opacity: 1;
     }
     40%,57%{
-        transform: translateX(-50%);
+        transform: translate(-50%,-50%);
         opacity: 1;
        
     }
     60%,77%{
-        transform: translateX(-170%);
+        transform: translate(-170%,-50%);
         opacity: 1;
        
     }
    
 
    80%, 100%{
-      transform: translateX(-330%);
+      transform: translate(-330%,-50%);
       opacity:0;
     }
 }
@@ -252,24 +252,24 @@
 @media screen and (max-width:600px){
     @keyframes carousel2{
     0%,37%{
-        transform:translateX(230%);
+        transform:translate(230%,-50%);
         opacity: 0;
     }
 
     40%,57%{
-        transform: translateX(10%);
+        transform: translate(10%,-50%);
         opacity: 1;
-        background-color: red;
+       
     }
     60%,77%{
-        transform: translateX(-110%);
+        transform: translate(-110%,-50%);
         opacity: 1;
        
     }
    
 
    80%, 100%{
-      transform: translateX(-330%);
+      transform: translate(-330%,-50%);
       opacity:0;
     }
 }
@@ -301,7 +301,7 @@
 @media screen and (max-width:400px){
     @keyframes carousel2{
     0%,37%{
-        transform:translateX(230%);
+        transform:translate(230%,-50%);
         opacity: 0;
 
     }
@@ -309,15 +309,15 @@
    
    
     40%,57%{
-        transform: translateX(-50%);
+        transform: translate(-50%,-50%);
         opacity: 1;
-        background-color: red;
+       
     }
    
    
 
    60%, 100%{
-      transform: translateX(-330%);
+      transform: translate(-330%,-50%);
       opacity:0;
     }
 }
