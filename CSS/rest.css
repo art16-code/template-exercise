@@ -251,7 +251,8 @@ box-shadow: 0 5px 10px  #1e959b7d;
 border-radius: 30px;
 width: max-content;
 padding:50px;
-
+bottom: 2px;
+transition: all 1s ease-in-out;
 position: absolute;
 z-index:100;
 
@@ -262,11 +263,12 @@ z-index:100;
     text-align: center;
 }
 .items{
+    position:relative;
     background: red;
    margin:0 auto;
     overflow-x: hidden;
     width: 1200px;
-    height:300px;
+    height:350px;
 }
 #left{
     position: absolute;
@@ -282,6 +284,12 @@ z-index:100;
    right:10px;
     
 }
+.square #btn{
+padding:20px 30px;
+margin:0 auto;
+display:flex;
+}
+
 
 
 
